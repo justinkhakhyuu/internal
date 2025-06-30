@@ -1,0 +1,33 @@
+.vs
+.vs/Celestial Mods V3/.vs
+# Build Folders
+bin/
+obj/
+
+# User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Visual Studio Code workspace
+.vscode/
+
+# Visual Studio Mac
+.vscode/
+.idea/
+*.sln.ide
+
+# ASP.NET temp files
+**/App_Data/
+
+# NuGet packages
+*.nupkg
+# Package sources
+*.snupkg
+# Project lock file
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+#

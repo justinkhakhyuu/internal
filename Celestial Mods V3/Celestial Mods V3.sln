@@ -5,6 +5,17 @@ VisualStudioVersion = 17.13.35806.99
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Celestial Mods V3", "Celestial Mods V3\Celestial Mods V3.csproj", "{859A4075-7B3F-4FE0-984D-B850748BEBD8}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "api", "api", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
+	ProjectSection(SolutionItems) = preProject
+		ApiMain.cs = ApiMain.cs
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "models", "models", "{C4895C6D-5CEF-4FE1-887E-2B67D2719299}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "controller", "controller", "{2A85C7C1-28F5-4196-B871-BCD31A7BE5B2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "view", "view", "{C8D4D877-35D2-409D-8BD6-6730D3293DD0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,6 +35,11 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C4895C6D-5CEF-4FE1-887E-2B67D2719299} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{2A85C7C1-28F5-4196-B871-BCD31A7BE5B2} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{C8D4D877-35D2-409D-8BD6-6730D3293DD0} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {612C1F90-F9B8-4A44-93E9-CA3973BAAC05}

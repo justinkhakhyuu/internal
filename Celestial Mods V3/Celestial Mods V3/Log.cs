@@ -64,6 +64,7 @@ namespace Celestial_Mods_V3
                Hack aa = new Hack();
                 aa.Show();
                 this.Alert("Logged In !", Notify.enmType.Applied);
+                // once user is logged in we run static api entry point
             }
             else
             {
