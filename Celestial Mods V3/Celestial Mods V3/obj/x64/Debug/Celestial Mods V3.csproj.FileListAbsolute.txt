@@ -1,0 +1,14 @@
+D:\Projects\Celestial Mods V3\Celestial Mods V3\bin\x64\Debug\Celestial Mods V3.exe.config
+D:\Projects\Celestial Mods V3\Celestial Mods V3\bin\x64\Debug\Celestial Mods V3.exe
+D:\Projects\Celestial Mods V3\Celestial Mods V3\bin\x64\Debug\Celestial Mods V3.pdb
+D:\Projects\Celestial Mods V3\Celestial Mods V3\bin\x64\Debug\Guna.UI2.dll
+D:\Projects\Celestial Mods V3\Celestial Mods V3\obj\x64\Debug\Celestial Mods V3.csproj.AssemblyReference.cache
+D:\Projects\Celestial Mods V3\Celestial Mods V3\obj\x64\Debug\Celestial_Mods_V3.Login.resources
+D:\Projects\Celestial Mods V3\Celestial Mods V3\obj\x64\Debug\Celestial_Mods_V3.Main.resources
+D:\Projects\Celestial Mods V3\Celestial Mods V3\obj\x64\Debug\Celestial_Mods_V3.Notify.resources
+D:\Projects\Celestial Mods V3\Celestial Mods V3\obj\x64\Debug\Celestial_Mods_V3.Properties.Resources.resources
+D:\Projects\Celestial Mods V3\Celestial Mods V3\obj\x64\Debug\Celestial Mods V3.csproj.GenerateResource.cache
+D:\Projects\Celestial Mods V3\Celestial Mods V3\obj\x64\Debug\Celestial Mods V3.csproj.CoreCompileInputs.cache
+D:\Projects\Celestial Mods V3\Celestial Mods V3\obj\x64\Debug\Celestia.59C52203.Up2Date
+D:\Projects\Celestial Mods V3\Celestial Mods V3\obj\x64\Debug\Celestial Mods V3.exe
+D:\Projects\Celestial Mods V3\Celestial Mods V3\obj\x64\Debug\Celestial Mods V3.pdb

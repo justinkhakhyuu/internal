@@ -1,0 +1,65 @@
+D:\Projects\Celestial Mods V3\Celestial Mods V3\bin\Debug\Celestial Mods V3.exe.config
+D:\Projects\Celestial Mods V3\Celestial Mods V3\bin\Debug\Celestial Mods V3.exe
+D:\Projects\Celestial Mods V3\Celestial Mods V3\bin\Debug\Celestial Mods V3.pdb
+D:\Projects\Celestial Mods V3\Celestial Mods V3\obj\Debug\Celestial Mods V3.csproj.AssemblyReference.cache
+D:\Projects\Celestial Mods V3\Celestial Mods V3\obj\Debug\Celestial_Mods_V3.Login.resources
+D:\Projects\Celestial Mods V3\Celestial Mods V3\obj\Debug\Celestial_Mods_V3.Main.resources
+D:\Projects\Celestial Mods V3\Celestial Mods V3\obj\Debug\Celestial_Mods_V3.Notify.resources
+D:\Projects\Celestial Mods V3\Celestial Mods V3\obj\Debug\Celestial_Mods_V3.Properties.Resources.resources
+D:\Projects\Celestial Mods V3\Celestial Mods V3\obj\Debug\Celestial Mods V3.csproj.GenerateResource.cache
+D:\Projects\Celestial Mods V3\Celestial Mods V3\obj\Debug\Celestial Mods V3.csproj.CoreCompileInputs.cache
+D:\Projects\Celestial Mods V3\Celestial Mods V3\obj\Debug\Celestial Mods V3.exe
+D:\Projects\Celestial Mods V3\Celestial Mods V3\obj\Debug\Celestial Mods V3.pdb
+D:\Projects\Celestial Mods V3\Celestial Mods V3\bin\Debug\Costura.dll
+D:\Projects\Celestial Mods V3\Celestial Mods V3\bin\Debug\Guna.UI2.dll
+D:\Projects\Celestial Mods V3\Celestial Mods V3\bin\Debug\Costura.pdb
+D:\Projects\Celestial Mods V3\Celestial Mods V3\bin\Debug\Costura.xml
+D:\Projects\Celestial Mods V3\Celestial Mods V3\obj\Debug\Celestia.59C52203.Up2Date
+C:\Users\MTJ\Downloads\Celestial Mods V3\Celestial Mods V3\Celestial Mods V3\obj\Debug\Celestial Mods V3.csproj.AssemblyReference.cache
+C:\Users\MTJ\Downloads\Celestial Mods V3\Celestial Mods V3\Celestial Mods V3\obj\Debug\Celestial_Mods_V3.Login.resources
+C:\Users\MTJ\Downloads\Celestial Mods V3\Celestial Mods V3\Celestial Mods V3\obj\Debug\Celestial_Mods_V3.Main.resources
+C:\Users\MTJ\Downloads\Celestial Mods V3\Celestial Mods V3\Celestial Mods V3\obj\Debug\Celestial_Mods_V3.Notify.resources
+C:\Users\MTJ\Downloads\Celestial Mods V3\Celestial Mods V3\Celestial Mods V3\obj\Debug\Celestial_Mods_V3.Properties.Resources.resources
+C:\Users\MTJ\Downloads\Celestial Mods V3\Celestial Mods V3\Celestial Mods V3\obj\Debug\Celestial Mods V3.csproj.GenerateResource.cache
+C:\Users\MTJ\Downloads\Celestial Mods V3\Celestial Mods V3\Celestial Mods V3\obj\Debug\Celestial Mods V3.csproj.CoreCompileInputs.cache
+C:\Users\MTJ\Downloads\Celestial Mods V3\Celestial Mods V3\Celestial Mods V3\obj\Debug\Celestial Mods V3.csproj.Fody.CopyLocal.cache
+C:\Users\MTJ\Downloads\Celestial Mods V3\Celestial Mods V3\Celestial Mods V3\obj\Debug\Celestial Mods V3.csproj.Fody.RuntimeCopyLocal.cache
+C:\Users\MTJ\Downloads\Celestial Mods V3\Celestial Mods V3\Celestial Mods V3\bin\Debug\BLACK MAGIC.exe.config
+C:\Users\MTJ\Downloads\Celestial Mods V3\Celestial Mods V3\Celestial Mods V3\bin\Debug\BLACK MAGIC.exe
+C:\Users\MTJ\Downloads\Celestial Mods V3\Celestial Mods V3\Celestial Mods V3\bin\Debug\BLACK MAGIC.pdb
+C:\Users\MTJ\Downloads\Celestial Mods V3\Celestial Mods V3\Celestial Mods V3\obj\Debug\BLACK MAGIC.exe
+C:\Users\MTJ\Downloads\Celestial Mods V3\Celestial Mods V3\Celestial Mods V3\obj\Debug\BLACK MAGIC.pdb
+C:\Users\MTJ\Downloads\Celestial Mods V3\QUICK MEM\Celestial Mods V3\Celestial Mods V3\bin\Debug\BLACK MAGIC.exe.config
+C:\Users\MTJ\Downloads\Celestial Mods V3\QUICK MEM\Celestial Mods V3\Celestial Mods V3\bin\Debug\BLACK MAGIC.exe
+C:\Users\MTJ\Downloads\Celestial Mods V3\QUICK MEM\Celestial Mods V3\Celestial Mods V3\bin\Debug\BLACK MAGIC.pdb
+C:\Users\MTJ\Downloads\Celestial Mods V3\QUICK MEM\Celestial Mods V3\Celestial Mods V3\obj\Debug\Celestial Mods V3.csproj.AssemblyReference.cache
+C:\Users\MTJ\Downloads\Celestial Mods V3\QUICK MEM\Celestial Mods V3\Celestial Mods V3\obj\Debug\Celestial_Mods_V3.Main.resources
+C:\Users\MTJ\Downloads\Celestial Mods V3\QUICK MEM\Celestial Mods V3\Celestial Mods V3\obj\Debug\Celestial_Mods_V3.Notify.resources
+C:\Users\MTJ\Downloads\Celestial Mods V3\QUICK MEM\Celestial Mods V3\Celestial Mods V3\obj\Debug\Celestial_Mods_V3.Properties.Resources.resources
+C:\Users\MTJ\Downloads\Celestial Mods V3\QUICK MEM\Celestial Mods V3\Celestial Mods V3\obj\Debug\Celestial Mods V3.csproj.GenerateResource.cache
+C:\Users\MTJ\Downloads\Celestial Mods V3\QUICK MEM\Celestial Mods V3\Celestial Mods V3\obj\Debug\Celestial Mods V3.csproj.CoreCompileInputs.cache
+C:\Users\MTJ\Downloads\Celestial Mods V3\QUICK MEM\Celestial Mods V3\Celestial Mods V3\obj\Debug\BLACK MAGIC.exe
+C:\Users\MTJ\Downloads\Celestial Mods V3\QUICK MEM\Celestial Mods V3\Celestial Mods V3\obj\Debug\BLACK MAGIC.pdb
+C:\Users\MTJ\Downloads\Celestial Mods V3\QUICK MEM\Celestial Mods V3\Celestial Mods V3\obj\Debug\Celestial Mods V3.csproj.Fody.CopyLocal.cache
+C:\Users\MTJ\Downloads\Celestial Mods V3\QUICK MEM\Celestial Mods V3\Celestial Mods V3\obj\Debug\Celestial Mods V3.csproj.Fody.RuntimeCopyLocal.cache
+C:\Users\MTJ\Downloads\Celestial Mods V3\QUICK MEM\Celestial Mods V3\Celestial Mods V3\obj\Debug\Celestial_Mods_V3.Login1.resources
+C:\Users\MTJ\Downloads\Celestial Mods V3\QUICK MEM\Celestial Mods V3\Celestial Mods V3\obj\Debug\Celestial_Mods_V3.Hack.resources
+C:\Users\MTJ\Downloads\Celestial Mods V3\QUICK MEM\Celestial Mods V3\Celestial Mods V3\obj\Debug\Celestial_Mods_V3.Log.resources
+C:\Celestial Mods V3\QUICK MEM\Celestial Mods V3\Celestial Mods V3\obj\Debug\Celestial Mods V3.csproj.AssemblyReference.cache
+C:\Celestial Mods V3\QUICK MEM\Celestial Mods V3\Celestial Mods V3\obj\Debug\Celestial_Mods_V3.Login1.resources
+C:\Celestial Mods V3\QUICK MEM\Celestial Mods V3\Celestial Mods V3\obj\Debug\Celestial_Mods_V3.Hack.resources
+C:\Celestial Mods V3\QUICK MEM\Celestial Mods V3\Celestial Mods V3\obj\Debug\Celestial_Mods_V3.Log.resources
+C:\Celestial Mods V3\QUICK MEM\Celestial Mods V3\Celestial Mods V3\obj\Debug\Celestial_Mods_V3.Main.resources
+C:\Celestial Mods V3\QUICK MEM\Celestial Mods V3\Celestial Mods V3\obj\Debug\Celestial_Mods_V3.Notify.resources
+C:\Celestial Mods V3\QUICK MEM\Celestial Mods V3\Celestial Mods V3\obj\Debug\Celestial_Mods_V3.Properties.Resources.resources
+C:\Celestial Mods V3\QUICK MEM\Celestial Mods V3\Celestial Mods V3\obj\Debug\Celestial Mods V3.csproj.GenerateResource.cache
+C:\Celestial Mods V3\QUICK MEM\Celestial Mods V3\Celestial Mods V3\obj\Debug\Celestial Mods V3.csproj.CoreCompileInputs.cache
+C:\Celestial Mods V3\QUICK MEM\Celestial Mods V3\Celestial Mods V3\bin\Debug\System32.exe.config
+C:\Celestial Mods V3\QUICK MEM\Celestial Mods V3\Celestial Mods V3\bin\Debug\System32.exe
+C:\Celestial Mods V3\QUICK MEM\Celestial Mods V3\Celestial Mods V3\bin\Debug\System32.pdb
+C:\Celestial Mods V3\QUICK MEM\Celestial Mods V3\Celestial Mods V3\obj\Debug\Celestial_Mods_V3.Form3.resources
+C:\Celestial Mods V3\QUICK MEM\Celestial Mods V3\Celestial Mods V3\obj\Debug\System32.exe
+C:\Celestial Mods V3\QUICK MEM\Celestial Mods V3\Celestial Mods V3\obj\Debug\System32.pdb
+C:\Celestial Mods V3\QUICK MEM\Celestial Mods V3\Celestial Mods V3\obj\Debug\System32.exe.config
+C:\Celestial Mods V3\QUICK MEM\Celestial Mods V3\Celestial Mods V3\obj\Debug\Celestial Mods V3.csproj.Fody.CopyLocal.cache
+C:\Celestial Mods V3\QUICK MEM\Celestial Mods V3\Celestial Mods V3\obj\Debug\Celestial Mods V3.csproj.Fody.RuntimeCopyLocal.cache
