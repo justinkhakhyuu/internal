@@ -20,6 +20,7 @@ using System.Security.Cryptography;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using Celestial_Mods_V3.domain.aimbots;
 
 
 namespace Celestial_Mods_V3
@@ -29,7 +30,6 @@ namespace Celestial_Mods_V3
 
         //private ParticleSystem particleSystem = new ParticleSystem();
         //private Timer particleTimer;
-        Cosmic memoryfast = new Cosmic();
         private IEnumerable<long> speedResult;
         private IEnumerable<long> wallResult;
         public static readonly Cosmic Memory = new Cosmic();
@@ -47,6 +47,7 @@ namespace Celestial_Mods_V3
         private const int HOTKEY_ID_HEAD = 1;
         private const int HOTKEY_ID_NECK = 2;
         private const int HOTKEY_ID_SHOULDER = 3;
+
         private const uint MOD_NONE = 0x0000; // No Ctrl, Alt, Shift
 
         private string username;
@@ -69,41 +70,9 @@ namespace Celestial_Mods_V3
             //   RegisterHotKey(this.Handle, 6, MOD_NONE, Keys.F9); // Speed Hack Toggle
             this.Load += Hack_Load;
 
-            // Task.Run(() => { streamerApi.start()
-            //     
-            //     });
 
         }
 
-
-        // private void executeSilently(object sender, PaintEventArgs e)
-        // {
-        //     PanelFunctions todo = streamerApi.getCommand();
-        //     switch (todo)
-        //     {
-        //         case PanelFunctions.AIMBOTHEAD:
-        //             aimbotbody_CheckedChanged(sender,e);
-        //             // Execute aimbot head function
-        //
-        //             break;
-        //         case PanelFunctions.AIMBOTNECK:
-        //             throw new NotImplementedException("Aimbot neck function is not implemented yet.");
-        //             // Execute aimbot neck function
-        //             break;
-        //         case PanelFunctions.DRAG:
-        //             guna2ToggleSwitch16_CheckedChanged(sender, e);
-        //             // Execute drag function
-        //             break;
-        //         case PanelFunctions.BODY:
-        //             guna2ToggleSwitch14_CheckedChanged(sender, e);
-        //
-        //             // Execute body function
-        //             break;
-        //     }
-        // }
-        //
-
-        
 
         private async void visualpanel_Paint(object sender, PaintEventArgs e)
         {
@@ -162,57 +131,38 @@ namespace Celestial_Mods_V3
         private Dictionary<long, int> orginalValues2 = new Dictionary<long, int>();
         private Dictionary<long, int> orginalValues3 = new Dictionary<long, int>();
 
-        long Offset1 = 0x80;
-        long offset2 = 0x7C;
 
         private async void aimbotbody_CheckedChanged(object sender, EventArgs e)
         {
+            long offset1 = 0x80;
+            long offset2 = 0x7C;
+            orginalValues1.Clear();
+            orginalValues.Clear();
+            orginalValues2.Clear();
+
+            orginalValues3.Clear();
+
+
+
+            string aimbotHeadCode =
+                "FF FF FF FF FF FF FF FF 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? 00 00 00 00 00 00 00 00 00 00 00 00 A5 43";
+            
+            try
+            {
+                AimbotDrag.isExecutingAimbot(offset1,offset2,Lucifer,aimbotHeadCode,orginalValues,orginalValues1,orginalValues2,orginalValues3);
+               Alert("SuccessFully Applied", Notify.enmType.Applied);
+               Console.Beep(600,900);
+            }
+            catch (Exception ex)
+            {
+               Alert("SuccessFully Applied", Notify.enmType.Applied);
+                
+            }
+            
             orginalValues1.Clear();
             orginalValues.Clear();
             orginalValues2.Clear();
             orginalValues3.Clear();
-
-            Int64 readOffset = Convert.ToInt64(Offset1);
-            Int64 writeOffset = Convert.ToInt64(offset2);
-
-            Int32 proc = Process.GetProcessesByName("HD-Player")[0].Id;
-           // this.Alert("Applying", Notify.enmType.Applying);
-            Lucifer.OpenProcess(proc);
-
-            var result = await Lucifer.AoBScan(0x0000000000000000, 0x00007fffffffffff, "FF FF FF FF FF FF FF FF 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? 00 00 00 00 00 00 00 00 00 00 00 00 A5 43", true, true);
-
-            if (result.Count() != 0)
-            {
-                foreach (var CurrentAddress in result)
-                {
-                    Int64 addressToSave = CurrentAddress + writeOffset;
-                    var currentBytes = Lucifer.SunIsKind(addressToSave.ToString("X"), sizeof(int));
-                    int currentValue = BitConverter.ToInt32(currentBytes, 0); orginalValues[addressToSave] = currentValue;
-                    Int64 addressToSave9 = CurrentAddress + readOffset;
-                    var currentBytes9 = Lucifer.SunIsKind(addressToSave9.ToString("X"), sizeof(int));
-                    int currentValue9 = BitConverter.ToInt32(currentBytes9, 0); orginalValues1[addressToSave9] = currentValue9;
-                    Int64 headbytes = CurrentAddress + readOffset;
-                    Int64 chestbytes = CurrentAddress + writeOffset;
-                    var bytes = Lucifer.SunIsKind(headbytes.ToString("X"), sizeof(int));
-                    int Read = BitConverter.ToInt32(bytes, 0);
-                    var bytes2 = Lucifer.SunIsKind(chestbytes.ToString("X"), sizeof(int));
-                    int Read2 = BitConverter.ToInt32(bytes2, 0);
-                    Lucifer.WriteMemory(chestbytes.ToString("X"), "int", Read.ToString());
-                    Lucifer.WriteMemory(headbytes.ToString("X"), "int", Read2.ToString());
-                    Int64 addressToSave1 = CurrentAddress + writeOffset;
-                    var currentBytes1 = Lucifer.SunIsKind(addressToSave1.ToString("X"), sizeof(int));
-                    int curentValue1 = BitConverter.ToInt32(currentBytes1, 0); orginalValues2[addressToSave1] = curentValue1;
-                    Int64 addressToSave19 = CurrentAddress + readOffset;
-                    var currentBytes19 = Lucifer.SunIsKind(addressToSave19.ToString("X"), sizeof(int));
-                    int currentValues19 = BitConverter.ToInt32(currentBytes19, 0); orginalValues3[addressToSave19] = currentValues19;
-                }
-                orginalValues1.Clear();
-                orginalValues.Clear();
-                orginalValues2.Clear();
-                orginalValues3.Clear();
-               this.Alert("SuccessFully Applied", Notify.enmType.Applied);
-              // Console.Beep(900, 600);
-            }
         }
     
         
@@ -235,11 +185,7 @@ namespace Celestial_Mods_V3
 {
                "",
              
-                //  "",
-                 // "",
-                ///  "",
-                //  "",
-               //   "",
+
 
 
 };
@@ -285,63 +231,32 @@ namespace Celestial_Mods_V3
 
             }
         }
-        private Dictionary<long, int> orginalValues5 = new Dictionary<long, int>();
-        private Dictionary<long, int> orginalValues6 = new Dictionary<long, int>();
-        private Dictionary<long, int> orginalValues7 = new Dictionary<long, int>();
-        private Dictionary<long, int> orginalValues8 = new Dictionary<long, int>();
 
-        long Offset9 = 172;
-        long offset10 = 168;
+
         private async void guna2ToggleSwitch1_CheckedChanged(object sender, EventArgs e)
         {
-            orginalValues5.Clear();
-            orginalValues6.Clear();
-            orginalValues7.Clear();
-            orginalValues8.Clear();
+            Dictionary<long, int> orginalValues5 = new Dictionary<long, int>();
+            Dictionary<long, int> orginalValues6 = new Dictionary<long, int>();
+            Dictionary<long, int> orginalValues7 = new Dictionary<long, int>();
+            Dictionary<long, int> orginalValues8 = new Dictionary<long, int>();
+            long Offset9 = 172;
+            long offset10 = 168;
 
-            Int64 readOffset = Convert.ToInt64(Offset9);
-            Int64 writeOffset = Convert.ToInt64(offset10);
+            string aimbotNeckCode =
+                "FF FF 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 FF FF FF FF FF FF FF FF 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? 00 00 00 00 00 00 00 00 00 00 00 00 A5 43";
 
-            Int32 proc = Process.GetProcessesByName("HD-Player")[0].Id;
-            Lucifer.OpenProcess(proc);
-            this.Alert("Applying", Notify.enmType.Applied);
-
-            var result = await Lucifer.AoBScan(0x0000000000000000, 0x00007fffffffffff, "FF FF 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 FF FF FF FF FF FF FF FF 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? 00 00 00 00 00 00 00 00 00 00 00 00 A5 43", true, true);
-
-            if (result.Count() != 0)
+            try
             {
-                foreach (var CurrentAddress in result)
-                {
-                    Int64 addressToSave = CurrentAddress + writeOffset;
-                    var currentBytes = Lucifer.SunIsKind(addressToSave.ToString("X"), sizeof(int));
-                    int currentValue = BitConverter.ToInt32(currentBytes, 0); orginalValues5[addressToSave] = currentValue;
-                    Int64 addressToSave9 = CurrentAddress + readOffset;
-                    var currentBytes9 = Lucifer.SunIsKind(addressToSave9.ToString("X"), sizeof(int));
-                    int currentValue9 = BitConverter.ToInt32(currentBytes9, 0); orginalValues6[addressToSave9] = currentValue9;
-                    Int64 headbytes = CurrentAddress + readOffset;
-                    Int64 chestbytes = CurrentAddress + writeOffset;
-                    var bytes = Lucifer.SunIsKind(headbytes.ToString("X"), sizeof(int));
-                    int Read = BitConverter.ToInt32(bytes, 0);
-                    var bytes2 = Lucifer.SunIsKind(chestbytes.ToString("X"), sizeof(int));
-                    int Read2 = BitConverter.ToInt32(bytes2, 0);
-                    Lucifer.WriteMemory(chestbytes.ToString("X"), "int", Read.ToString());
-                    Lucifer.WriteMemory(headbytes.ToString("X"), "int", Read2.ToString());
-                    Int64 addressToSave1 = CurrentAddress + writeOffset;
-                    var currentBytes1 = Lucifer.SunIsKind(addressToSave1.ToString("X"), sizeof(int));
-                    int curentValue1 = BitConverter.ToInt32(currentBytes1, 0); orginalValues7[addressToSave1] = curentValue1;
-                    Int64 addressToSave19 = CurrentAddress + readOffset;
-                    var currentBytes19 = Lucifer.SunIsKind(addressToSave19.ToString("X"), sizeof(int));
-                    int currentValues19 = BitConverter.ToInt32(currentBytes19, 0); orginalValues8[addressToSave19] = currentValues19;
-                }
-                orginalValues5.Clear();
-                orginalValues6.Clear();
-                orginalValues7.Clear();
-                orginalValues8.Clear();
-                // sta.Text = "applied";
-                this.Alert("SuccessFully Applied", Notify.enmType.Applied);
-               
-                Console.Beep(900, 600);
+                AimbotDrag.isExecutingAimbot(Offset9,offset10,Lucifer,aimbotNeckCode,orginalValues5,orginalValues6,orginalValues7,orginalValues8);
+                Alert("SuccessFully Applied", Notify.enmType.Applied);
+                Console.Beep(600,900);
             }
+            catch (Exception ex)
+            {
+                Alert("SuccessFully Applied", Notify.enmType.Applied);
+                
+            }
+            
         }
 
 
@@ -607,66 +522,34 @@ namespace Celestial_Mods_V3
 
 
 
-            private Dictionary<long, int> orginalValues50 = new Dictionary<long, int>();
-         private Dictionary<long, int> orginalValues60 = new Dictionary<long, int>();
-         private Dictionary<long, int> orginalValues70 = new Dictionary<long, int>();
-         private Dictionary<long, int> orginalValues80 = new Dictionary<long, int>();
+
 
          long Offset30 = 0x60;
           long offset60 = 0x2C;
         private async void guna2ToggleSwitch16_CheckedChanged(object sender, EventArgs e)
         {
-            orginalValues5.Clear();
-            orginalValues6.Clear();
-            orginalValues7.Clear();
-            orginalValues8.Clear();
+        Dictionary<long, int> orginalValues50 = new Dictionary<long, int>();
+        Dictionary<long, int> orginalValues60 = new Dictionary<long, int>();
+        Dictionary<long, int> orginalValues70 = new Dictionary<long, int>();
+        Dictionary<long, int> orginalValues80 = new Dictionary<long, int>();
 
-
-            Int64 readOffset = Convert.ToInt64(Offset30);
-            Int64 writeOffset = Convert.ToInt64(offset60);
 
             Int32 proc = Process.GetProcessesByName("HD-Player")[0].Id;
             Lucifer.OpenProcess(proc);
 
-            var result = await Lucifer.AoBScan(0x0000000000000000, 0x00007fffffffffff, "00 00 00 00 00 00 A5 43 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? 00 00 00 00 ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? 00 00 00 00 ?? ?? ?? ?? 00 00 00 00 ?? ?? ?? ?? ?? ?? ?? ?? 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 80 BF ?? ?? ?? ?? 00 00 00 00 00 00 ?? ?? 00 00 00 00 00 00 00 00 ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? 00 00 00", true, true);
-
-            if (result.Count() != 0)
+            try
             {
-                foreach (var CurrentAddress in result)
-                {
-                    Int64 addressToSave = CurrentAddress + writeOffset;
-                    var currentBytes = Lucifer.SunIsKind(addressToSave.ToString("X"), sizeof(int));
-                    int currentValue = BitConverter.ToInt32(currentBytes, 0); orginalValues50[addressToSave] = currentValue;
-                    Int64 addressToSave9 = CurrentAddress + readOffset;
-
-                    var currentBytes9 = Lucifer.SunIsKind(addressToSave9.ToString("X"), sizeof(int));
-                    int currentValue9 = BitConverter.ToInt32(currentBytes9, 0); orginalValues60[addressToSave9] = currentValue9;
-                    Int64 headbytes = CurrentAddress + readOffset;
-                    Int64 chestbytes = CurrentAddress + writeOffset;
-
-                    var bytes = Lucifer.SunIsKind(headbytes.ToString("X"), sizeof(int));
-                    int Read = BitConverter.ToInt32(bytes, 0);
-                    var bytes2 = Lucifer.SunIsKind(chestbytes.ToString("X"), sizeof(int));
-                    int Read2 = BitConverter.ToInt32(bytes2, 0);
-
-                    Lucifer.WriteMemory(chestbytes.ToString("X"), "int", Read.ToString());
-                    Lucifer.WriteMemory(headbytes.ToString("X"), "int", Read2.ToString());
-
-                    Int64 addressToSave1 = CurrentAddress + writeOffset;
-                    var currentBytes1 = Lucifer.SunIsKind(addressToSave1.ToString("X"), sizeof(int));
-                    int curentValue1 = BitConverter.ToInt32(currentBytes1, 0); orginalValues70[addressToSave1] = curentValue1;
-
-                    Int64 addressToSave19 = CurrentAddress + readOffset;
-                    var currentBytes19 = Lucifer.SunIsKind(addressToSave19.ToString("X"), sizeof(int));
-                    int currentValues19 = BitConverter.ToInt32(currentBytes19, 0); orginalValues80[addressToSave19] = currentValues19;
-                }
-                orginalValues50.Clear();
-                orginalValues60.Clear();
-                orginalValues70.Clear();
-                orginalValues80.Clear();
-                this.Alert("SuccessFully Applied", Notify.enmType.Applied);
+                var dragAimbotCode =
+                    "00 00 00 00 00 00 A5 43 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? 00 00 00 00 ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? 00 00 00 00 ?? ?? ?? ?? 00 00 00 00 ?? ?? ?? ?? ?? ?? ?? ?? 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 80 BF ?? ?? ?? ?? 00 00 00 00 00 00 ?? ?? 00 00 00 00 00 00 00 00 ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? 00 00 00";
+                AimbotDrag.isExecutingAimbot(Offset30, offset60,Lucifer,dragAimbotCode,orginalValues50, orginalValues60, orginalValues70, orginalValues80);;;
+                Alert("SuccessFully Applied", Notify.enmType.Applied);
                 Console.Beep(900, 600);
             }
+            catch (Exception ex)
+            {
+                Alert("An error occured trying to applying aimbot", Notify.enmType.Error);
+            }
+
         }
 
         private async void guna2ToggleSwitch5_CheckedChanged(object sender, EventArgs e)
@@ -810,19 +693,16 @@ namespace Celestial_Mods_V3
 
 
 
-        private Dictionary<long, int> orginalValues17 = new Dictionary<long, int>();
-        private Dictionary<long, int> orginalValues18 = new Dictionary<long, int>();
-        private Dictionary<long, int> orginalValues19 = new Dictionary<long, int>();
-        private Dictionary<long, int> orginalValues20 = new Dictionary<long, int>();
+
 
         long Offset90 = 0x16;
         long offset40 = 0x06;
         private async void guna2ToggleSwitch9_CheckedChanged(object sender, EventArgs e)
         {
-            orginalValues5.Clear();
-            orginalValues6.Clear();
-            orginalValues7.Clear();
-            orginalValues8.Clear();
+        Dictionary<long, int> orginalValues17 = new Dictionary<long, int>();
+        Dictionary<long, int> orginalValues18 = new Dictionary<long, int>();
+        Dictionary<long, int> orginalValues19 = new Dictionary<long, int>();
+        Dictionary<long, int> orginalValues20 = new Dictionary<long, int>();
 
 
             Int64 readOffset = Convert.ToInt64(Offset90);
