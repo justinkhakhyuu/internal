@@ -2,15 +2,15 @@
 
 namespace Celestial_Mods_V3.domain.aimbots
 {
-    public class AimbotHead : AbsractAimbot
+    public class AimbotNeck : AbsractAimbot
     {
-        public AimbotHead()
+        public AimbotNeck()
         {
             var aimbotCode =
                 "FF FF 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 FF FF FF FF FF FF FF FF 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? 00 00 00 00 00 00 00 00 00 00 00 00 A5 43";
 
-            long offset1 = 0x80; // Replace with actual offset
-            long offset2 = 0x7C; // Replace with actual offset
+            long offset1 = 172; // Replace with actual offset
+            long offset2 = 168; // Replace with actual offset
             var prevValue1 = new Dictionary<long, int>();
             var prevValue2 = new Dictionary<long, int>();
             var prevValue3 = new Dictionary<long, int>();
