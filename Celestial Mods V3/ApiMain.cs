@@ -12,5 +12,5 @@ public class Class1
 		this.port = port;
 	}
 
-	public 
+
 }

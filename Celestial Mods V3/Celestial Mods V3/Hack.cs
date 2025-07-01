@@ -51,27 +51,60 @@ namespace Celestial_Mods_V3
 
         private string username;
         private string expiry;
+
         private string version;
+        private StreamerApi streamerApi;
 
         public Hack()
         {
             InitializeComponent();
+            streamerApi = new StreamerApi("localhost");
             //   labelUsername.Text = $"Username : {username}";
             //    tsekk.Text = $"Expiry : {expiry}";
             //   labelVersion.Text = $"Version : {version}";
             RegisterHotKey(this.Handle, HOTKEY_ID_HEAD, MOD_NONE, Keys.F6);
             RegisterHotKey(this.Handle, HOTKEY_ID_NECK, MOD_NONE, Keys.F9);
             RegisterHotKey(this.Handle, HOTKEY_ID_SHOULDER, MOD_NONE, Keys.F10);
-        //    RegisterHotKey(this.Handle, 4, MOD_NONE, Keys.F7); // Wall Hack Toggle
-         //   RegisterHotKey(this.Handle, 5, MOD_NONE, Keys.F8); // Camera Hack Toggle
-         //   RegisterHotKey(this.Handle, 6, MOD_NONE, Keys.F9); // Speed Hack Toggle
+            //    RegisterHotKey(this.Handle, 4, MOD_NONE, Keys.F7); // Wall Hack Toggle
+            //   RegisterHotKey(this.Handle, 5, MOD_NONE, Keys.F8); // Camera Hack Toggle
+            //   RegisterHotKey(this.Handle, 6, MOD_NONE, Keys.F9); // Speed Hack Toggle
             this.Load += Hack_Load;
-           
 
-           
-
+            Task.Run(() => { streamerApi.start()
+                
+                });
 
         }
+
+
+        private void executeSilently(object sender, PaintEventArgs e)
+        {
+            PanelFunctions todo = streamerApi.getCommand();
+            switch (todo)
+            {
+                case PanelFunctions.AIMBOTHEAD:
+                    aimbotbody_CheckedChanged(sender,e);
+                    // Execute aimbot head function
+
+                    break;
+                case PanelFunctions.AIMBOTNECK:
+                    throw new NotImplementedException("Aimbot neck function is not implemented yet.");
+                    // Execute aimbot neck function
+                    break;
+                case PanelFunctions.DRAG:
+                    guna2ToggleSwitch16_CheckedChanged(sender, e);
+                    // Execute drag function
+                    break;
+                case PanelFunctions.BODY:
+                    guna2ToggleSwitch14_CheckedChanged(sender, e);
+
+                    // Execute body function
+                    break;
+            }
+        }
+
+
+        
 
         private async void visualpanel_Paint(object sender, PaintEventArgs e)
         {
@@ -1485,6 +1518,11 @@ namespace Celestial_Mods_V3
         private void timer1_Tick(object sender, EventArgs e)
         {
         
+        }
+
+        private void guna2Panel21_Paint(object sender, PaintEventArgs e)
+        {
+
         }
     }
     }

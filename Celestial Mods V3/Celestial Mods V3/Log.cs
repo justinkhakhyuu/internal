@@ -61,10 +61,11 @@ namespace Celestial_Mods_V3
                 string version = KeyAuthApp.app_data.version;
 
                 this.Hide();
-               Hack aa = new Hack();
+                Hack aa = new Hack();
                 aa.Show();
                 this.Alert("Logged In !", Notify.enmType.Applied);
-                // once user is logged in we run static api entry point
+
+
             }
             else
             {

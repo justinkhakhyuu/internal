@@ -3,8 +3,40 @@
   "WorkspaceRootPath": "C:\\Users\\retro\\internal\\Celestial Mods V3\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{859A4075-7B3F-4FE0-984D-B850748BEBD8}|Celestial Mods V3\\Celestial Mods V3.csproj|c:\\users\\retro\\internal\\celestial mods v3\\celestial mods v3\\form3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:1:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\retro\\internal\\Celestial Mods V3\\Celestial Mods V3\\Form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:1:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Celestial Mods V3\\Form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{859A4075-7B3F-4FE0-984D-B850748BEBD8}|Celestial Mods V3\\Celestial Mods V3.csproj|C:\\Users\\retro\\internal\\Celestial Mods V3\\celestial mods v3\\form3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{859A4075-7B3F-4FE0-984D-B850748BEBD8}|Celestial Mods V3\\Celestial Mods V3.csproj|solutionrelative:celestial mods v3\\form3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}|api{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}|C:\\Users\\retro\\internal\\Celestial Mods V3\\ApiMain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}|api{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}|solutionrelative:ApiMain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{859A4075-7B3F-4FE0-984D-B850748BEBD8}|Celestial Mods V3\\Celestial Mods V3.csproj|C:\\Users\\retro\\internal\\Celestial Mods V3\\celestial mods v3\\hack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{859A4075-7B3F-4FE0-984D-B850748BEBD8}|Celestial Mods V3\\Celestial Mods V3.csproj|solutionrelative:celestial mods v3\\hack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{859A4075-7B3F-4FE0-984D-B850748BEBD8}|Celestial Mods V3\\Celestial Mods V3.csproj|C:\\Users\\retro\\internal\\Celestial Mods V3\\celestial mods v3\\hack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{859A4075-7B3F-4FE0-984D-B850748BEBD8}|Celestial Mods V3\\Celestial Mods V3.csproj|solutionrelative:celestial mods v3\\hack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{859A4075-7B3F-4FE0-984D-B850748BEBD8}|Celestial Mods V3\\Celestial Mods V3.csproj|C:\\Users\\retro\\internal\\Celestial Mods V3\\celestial mods v3\\log.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{859A4075-7B3F-4FE0-984D-B850748BEBD8}|Celestial Mods V3\\Celestial Mods V3.csproj|solutionrelative:celestial mods v3\\log.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{859A4075-7B3F-4FE0-984D-B850748BEBD8}|Celestial Mods V3\\Celestial Mods V3.csproj|C:\\Users\\retro\\internal\\Celestial Mods V3\\celestial mods v3\\log.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{859A4075-7B3F-4FE0-984D-B850748BEBD8}|Celestial Mods V3\\Celestial Mods V3.csproj|solutionrelative:celestial mods v3\\log.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{859A4075-7B3F-4FE0-984D-B850748BEBD8}|Celestial Mods V3\\Celestial Mods V3.csproj|C:\\Users\\retro\\internal\\Celestial Mods V3\\celestial mods v3\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{859A4075-7B3F-4FE0-984D-B850748BEBD8}|Celestial Mods V3\\Celestial Mods V3.csproj|solutionrelative:celestial mods v3\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{859A4075-7B3F-4FE0-984D-B850748BEBD8}|Celestial Mods V3\\Celestial Mods V3.csproj|C:\\Users\\retro\\internal\\Celestial Mods V3\\celestial mods v3\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{859A4075-7B3F-4FE0-984D-B850748BEBD8}|Celestial Mods V3\\Celestial Mods V3.csproj|solutionrelative:celestial mods v3\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{859A4075-7B3F-4FE0-984D-B850748BEBD8}|Celestial Mods V3\\Celestial Mods V3.csproj|C:\\Users\\retro\\internal\\Celestial Mods V3\\celestial mods v3\\form3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
@@ -12,18 +44,6 @@
     },
     {
       "AbsoluteMoniker": "D:0:0:{00000000-0000-0000-0000-000000000000}|\u003CSolution\u003E|Celestial Mods V3||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{859A4075-7B3F-4FE0-984D-B850748BEBD8}|Celestial Mods V3\\Celestial Mods V3.csproj|C:\\Users\\retro\\internal\\Celestial Mods V3\\celestial mods v3\\hack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{859A4075-7B3F-4FE0-984D-B850748BEBD8}|Celestial Mods V3\\Celestial Mods V3.csproj|solutionrelative:celestial mods v3\\hack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{859A4075-7B3F-4FE0-984D-B850748BEBD8}|Celestial Mods V3\\Celestial Mods V3.csproj|C:\\Users\\retro\\internal\\Celestial Mods V3\\celestial mods v3\\hack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{859A4075-7B3F-4FE0-984D-B850748BEBD8}|Celestial Mods V3\\Celestial Mods V3.csproj|solutionrelative:celestial mods v3\\hack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{859A4075-7B3F-4FE0-984D-B850748BEBD8}|Celestial Mods V3\\Celestial Mods V3.csproj|C:\\Users\\retro\\internal\\Celestial Mods V3\\celestial mods v3\\log.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{859A4075-7B3F-4FE0-984D-B850748BEBD8}|Celestial Mods V3\\Celestial Mods V3.csproj|solutionrelative:celestial mods v3\\log.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{859A4075-7B3F-4FE0-984D-B850748BEBD8}|Celestial Mods V3\\Celestial Mods V3.csproj|C:\\Users\\retro\\internal\\Celestial Mods V3\\celestial mods v3\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -42,12 +62,8 @@
       "RelativeMoniker": "D:0:0:{859A4075-7B3F-4FE0-984D-B850748BEBD8}|Celestial Mods V3\\Celestial Mods V3.csproj|solutionrelative:celestial mods v3\\celestialmem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{859A4075-7B3F-4FE0-984D-B850748BEBD8}|Celestial Mods V3\\Celestial Mods V3.csproj|C:\\Users\\retro\\internal\\Celestial Mods V3\\celestial mods v3\\log.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{859A4075-7B3F-4FE0-984D-B850748BEBD8}|Celestial Mods V3\\Celestial Mods V3.csproj|solutionrelative:celestial mods v3\\log.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\retro\\internal\\Celestial Mods V3\\Celestial Mods V3\\Form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Celestial Mods V3\\Form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:2:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\retro\\internal\\Celestial Mods V3\\Celestial Mods V3\\Form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:2:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Celestial Mods V3\\Form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -61,7 +77,69 @@
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\retro\\internal\\Celestial Mods V3\\Celestial Mods V3\\Form1.cs",
+              "RelativeDocumentMoniker": "Celestial Mods V3\\Form1.cs",
+              "ToolTip": "C:\\Users\\retro\\internal\\Celestial Mods V3\\Celestial Mods V3\\Form1.cs",
+              "RelativeToolTip": "Celestial Mods V3\\Form1.cs",
+              "ViewState": "AgIAACcAAAAAAAAAAAAAADoAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-30T12:46:51.435Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\retro\\internal\\Celestial Mods V3\\Celestial Mods V3\\Form1.cs",
+              "RelativeDocumentMoniker": "Celestial Mods V3\\Form1.cs",
+              "ToolTip": "C:\\Users\\retro\\internal\\Celestial Mods V3\\Celestial Mods V3\\Form1.cs [Design]",
+              "RelativeToolTip": "Celestial Mods V3\\Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-30T12:46:49.658Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ApiMain.cs",
+              "DocumentMoniker": "C:\\Users\\retro\\internal\\Celestial Mods V3\\ApiMain.cs",
+              "RelativeDocumentMoniker": "ApiMain.cs",
+              "ToolTip": "C:\\Users\\retro\\internal\\Celestial Mods V3\\ApiMain.cs",
+              "RelativeToolTip": "ApiMain.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-30T12:46:30.209Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "Form3.cs",
+              "DocumentMoniker": "C:\\Users\\retro\\internal\\Celestial Mods V3\\Celestial Mods V3\\Form3.cs",
+              "RelativeDocumentMoniker": "Celestial Mods V3\\Form3.cs",
+              "ToolTip": "C:\\Users\\retro\\internal\\Celestial Mods V3\\Celestial Mods V3\\Form3.cs",
+              "RelativeToolTip": "Celestial Mods V3\\Form3.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-25T14:31:47.986Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form2.cs",
+              "DocumentMoniker": "C:\\Users\\retro\\internal\\Celestial Mods V3\\Celestial Mods V3\\Form2.cs",
+              "RelativeDocumentMoniker": "Celestial Mods V3\\Form2.cs",
+              "ToolTip": "C:\\Users\\retro\\internal\\Celestial Mods V3\\Celestial Mods V3\\Form2.cs",
+              "RelativeToolTip": "Celestial Mods V3\\Form2.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-02T23:25:05.898Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "Form3.cs [Design]",
               "DocumentMoniker": "C:\\Users\\retro\\internal\\Celestial Mods V3\\Celestial Mods V3\\Form3.cs",
               "RelativeDocumentMoniker": "Celestial Mods V3\\Form3.cs",
@@ -73,30 +151,78 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "Hack.cs",
               "DocumentMoniker": "C:\\Users\\retro\\internal\\Celestial Mods V3\\Celestial Mods V3\\Hack.cs",
               "RelativeDocumentMoniker": "Celestial Mods V3\\Hack.cs",
               "ToolTip": "C:\\Users\\retro\\internal\\Celestial Mods V3\\Celestial Mods V3\\Hack.cs",
               "RelativeToolTip": "Celestial Mods V3\\Hack.cs",
-              "ViewState": "AgIAAD8BAAAAAAAAAADgv0IBAAAaAAAAAAAAAA==",
+              "ViewState": "AgIAAGICAAAAAAAAAAAAAHYCAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-24T22:10:16.096Z"
+              "WhenOpened": "2025-06-24T22:10:16.096Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Hack.cs [Design]",
               "DocumentMoniker": "C:\\Users\\retro\\internal\\Celestial Mods V3\\Celestial Mods V3\\Hack.cs",
               "RelativeDocumentMoniker": "Celestial Mods V3\\Hack.cs",
-              "ToolTip": "C:\\Celestial Mods V3\\QUICK MEM\\Celestial Mods V3\\Celestial Mods V3\\Hack.cs [Design]",
-              "RelativeToolTip": "..\\..\\..\\..\\Celestial Mods V3\\QUICK MEM\\Celestial Mods V3\\Celestial Mods V3\\Hack.cs [Design]",
+              "ToolTip": "C:\\Users\\retro\\internal\\Celestial Mods V3\\Celestial Mods V3\\Hack.cs [Design]",
+              "RelativeToolTip": "Celestial Mods V3\\Hack.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-24T15:18:23.674Z"
+              "WhenOpened": "2025-06-24T15:18:23.674Z",
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 5,
+              "Title": "Log.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\retro\\internal\\Celestial Mods V3\\Celestial Mods V3\\Log.cs",
+              "RelativeDocumentMoniker": "Celestial Mods V3\\Log.cs",
+              "ToolTip": "C:\\Users\\retro\\internal\\Celestial Mods V3\\Celestial Mods V3\\Log.cs [Design]",
+              "RelativeToolTip": "Celestial Mods V3\\Log.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-24T22:10:49.731Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Log.cs",
+              "DocumentMoniker": "C:\\Users\\retro\\internal\\Celestial Mods V3\\Celestial Mods V3\\Log.cs",
+              "RelativeDocumentMoniker": "Celestial Mods V3\\Log.cs",
+              "ToolTip": "C:\\Users\\retro\\internal\\Celestial Mods V3\\Celestial Mods V3\\Log.cs",
+              "RelativeToolTip": "Celestial Mods V3\\Log.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAkwDUAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-24T22:11:35.095Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Celestial Mods V3",
+              "DocumentMoniker": "C:\\Users\\retro\\internal\\Celestial Mods V3\\Celestial Mods V3\\Celestial Mods V3.csproj",
+              "RelativeDocumentMoniker": "Celestial Mods V3\\Celestial Mods V3.csproj",
+              "ToolTip": "C:\\Users\\retro\\internal\\Celestial Mods V3\\Celestial Mods V3\\Celestial Mods V3.csproj",
+              "RelativeToolTip": "Celestial Mods V3\\Celestial Mods V3.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-06-24T10:26:19.008Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Form2.cs",
+              "DocumentMoniker": "C:\\Users\\retro\\internal\\Celestial Mods V3\\Celestial Mods V3\\Form2.cs",
+              "RelativeDocumentMoniker": "Celestial Mods V3\\Form2.cs",
+              "ToolTip": "C:\\Users\\retro\\internal\\Celestial Mods V3\\Celestial Mods V3\\Form2.cs",
+              "RelativeToolTip": "Celestial Mods V3\\Form2.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-02T23:25:05.898Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
               "Title": "Form3.Designer.cs",
               "DocumentMoniker": "C:\\Users\\retro\\internal\\Celestial Mods V3\\Celestial Mods V3\\Form3.Designer.cs",
               "RelativeDocumentMoniker": "Celestial Mods V3\\Form3.Designer.cs",
@@ -109,31 +235,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Form3.cs",
-              "DocumentMoniker": "C:\\Users\\retro\\internal\\Celestial Mods V3\\Celestial Mods V3\\Form3.cs",
-              "RelativeDocumentMoniker": "Celestial Mods V3\\Form3.cs",
-              "ToolTip": "C:\\Users\\retro\\internal\\Celestial Mods V3\\Celestial Mods V3\\Form3.cs",
-              "RelativeToolTip": "Celestial Mods V3\\Form3.cs",
-              "ViewState": "AgIAADgAAAAAAAAAAADgv0IAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-25T14:31:47.986Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Log.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\retro\\internal\\Celestial Mods V3\\Celestial Mods V3\\Log.cs",
-              "RelativeDocumentMoniker": "Celestial Mods V3\\Log.cs",
-              "ToolTip": "C:\\Celestial Mods V3\\QUICK MEM\\Celestial Mods V3\\Celestial Mods V3\\Log.cs [Design]",
-              "RelativeToolTip": "..\\..\\..\\..\\Celestial Mods V3\\QUICK MEM\\Celestial Mods V3\\Celestial Mods V3\\Log.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-24T22:10:49.731Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 11,
               "Title": "Main.cs",
               "DocumentMoniker": "C:\\Users\\retro\\internal\\Celestial Mods V3\\Celestial Mods V3\\Main.cs",
               "RelativeDocumentMoniker": "Celestial Mods V3\\Main.cs",
@@ -145,22 +247,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Celestial Mods V3",
-              "DocumentMoniker": "C:\\Users\\retro\\internal\\Celestial Mods V3\\Celestial Mods V3\\Celestial Mods V3.csproj",
-              "RelativeDocumentMoniker": "Celestial Mods V3\\Celestial Mods V3.csproj",
-              "ToolTip": "C:\\Users\\retro\\internal\\Celestial Mods V3\\Celestial Mods V3\\Celestial Mods V3.csproj",
-              "RelativeToolTip": "Celestial Mods V3\\Celestial Mods V3.csproj",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2025-06-24T10:26:19.008Z"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 14,
               "Title": "CelestialMem.cs",
               "DocumentMoniker": "C:\\Users\\retro\\internal\\Celestial Mods V3\\Celestial Mods V3\\CelestialMem.cs",
               "RelativeDocumentMoniker": "Celestial Mods V3\\CelestialMem.cs",
@@ -172,19 +259,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Log.cs",
-              "DocumentMoniker": "C:\\Users\\retro\\internal\\Celestial Mods V3\\Celestial Mods V3\\Log.cs",
-              "RelativeDocumentMoniker": "Celestial Mods V3\\Log.cs",
-              "ToolTip": "C:\\Users\\retro\\internal\\Celestial Mods V3\\Celestial Mods V3\\Log.cs",
-              "RelativeToolTip": "Celestial Mods V3\\Log.cs",
-              "ViewState": "AgIAAAIAAAAAAAAAAAAAADUAAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-24T22:11:35.095Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 13,
               "Title": "Main.cs [Design]",
               "DocumentMoniker": "C:\\Users\\retro\\internal\\Celestial Mods V3\\Celestial Mods V3\\Main.cs",
               "RelativeDocumentMoniker": "Celestial Mods V3\\Main.cs",
@@ -192,18 +267,6 @@
               "RelativeToolTip": "..\\..\\..\\..\\Celestial Mods V3\\QUICK MEM\\Celestial Mods V3\\Celestial Mods V3\\Main.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-24T15:18:28.406Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "Form2.cs",
-              "DocumentMoniker": "C:\\Users\\retro\\internal\\Celestial Mods V3\\Celestial Mods V3\\Form2.cs",
-              "RelativeDocumentMoniker": "Celestial Mods V3\\Form2.cs",
-              "ToolTip": "C:\\Users\\retro\\internal\\Celestial Mods V3\\Celestial Mods V3\\Form2.cs",
-              "RelativeToolTip": "Celestial Mods V3\\Form2.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-02T23:25:05.898Z"
             }
           ]
         }
