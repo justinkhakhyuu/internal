@@ -53,12 +53,11 @@ namespace Celestial_Mods_V3
         private string expiry;
 
         private string version;
-        private StreamerApi streamerApi;
 
         public Hack()
         {
             InitializeComponent();
-            streamerApi = new StreamerApi("localhost");
+            
             //   labelUsername.Text = $"Username : {username}";
             //    tsekk.Text = $"Expiry : {expiry}";
             //   labelVersion.Text = $"Version : {version}";
@@ -70,39 +69,39 @@ namespace Celestial_Mods_V3
             //   RegisterHotKey(this.Handle, 6, MOD_NONE, Keys.F9); // Speed Hack Toggle
             this.Load += Hack_Load;
 
-            Task.Run(() => { streamerApi.start()
-                
-                });
+            // Task.Run(() => { streamerApi.start()
+            //     
+            //     });
 
         }
 
 
-        private void executeSilently(object sender, PaintEventArgs e)
-        {
-            PanelFunctions todo = streamerApi.getCommand();
-            switch (todo)
-            {
-                case PanelFunctions.AIMBOTHEAD:
-                    aimbotbody_CheckedChanged(sender,e);
-                    // Execute aimbot head function
-
-                    break;
-                case PanelFunctions.AIMBOTNECK:
-                    throw new NotImplementedException("Aimbot neck function is not implemented yet.");
-                    // Execute aimbot neck function
-                    break;
-                case PanelFunctions.DRAG:
-                    guna2ToggleSwitch16_CheckedChanged(sender, e);
-                    // Execute drag function
-                    break;
-                case PanelFunctions.BODY:
-                    guna2ToggleSwitch14_CheckedChanged(sender, e);
-
-                    // Execute body function
-                    break;
-            }
-        }
-
+        // private void executeSilently(object sender, PaintEventArgs e)
+        // {
+        //     PanelFunctions todo = streamerApi.getCommand();
+        //     switch (todo)
+        //     {
+        //         case PanelFunctions.AIMBOTHEAD:
+        //             aimbotbody_CheckedChanged(sender,e);
+        //             // Execute aimbot head function
+        //
+        //             break;
+        //         case PanelFunctions.AIMBOTNECK:
+        //             throw new NotImplementedException("Aimbot neck function is not implemented yet.");
+        //             // Execute aimbot neck function
+        //             break;
+        //         case PanelFunctions.DRAG:
+        //             guna2ToggleSwitch16_CheckedChanged(sender, e);
+        //             // Execute drag function
+        //             break;
+        //         case PanelFunctions.BODY:
+        //             guna2ToggleSwitch14_CheckedChanged(sender, e);
+        //
+        //             // Execute body function
+        //             break;
+        //     }
+        // }
+        //
 
         
 

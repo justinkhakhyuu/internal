@@ -77,63 +77,63 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="CelestialMem.cs" />
-    <Compile Include="Form1.cs">
+    <Compile Include="Forms\Form1.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
+    <Compile Include="Forms\Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
-    <Compile Include="Form3.cs">
+    <Compile Include="Forms\Form3.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form3.Designer.cs">
+    <Compile Include="Forms\Form3.Designer.cs">
       <DependentUpon>Form3.cs</DependentUpon>
     </Compile>
-    <Compile Include="Hack.cs">
+    <Compile Include="Forms\Hack.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Hack.Designer.cs">
+    <Compile Include="Forms\Hack.Designer.cs">
       <DependentUpon>Hack.cs</DependentUpon>
     </Compile>
-    <Compile Include="KeyAuth.cs" />
-    <Compile Include="Log.cs">
+    <Compile Include="Forms\Log.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Log.Designer.cs">
+    <Compile Include="Forms\Log.Designer.cs">
       <DependentUpon>Log.cs</DependentUpon>
     </Compile>
-    <Compile Include="Main.cs">
+    <Compile Include="Forms\Main.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Main.Designer.cs">
+    <Compile Include="Forms\Main.Designer.cs">
       <DependentUpon>Main.cs</DependentUpon>
     </Compile>
-    <Compile Include="mem.cs" />
-    <Compile Include="Notify.cs">
+    <Compile Include="Forms\Notify.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Notify.Designer.cs">
+    <Compile Include="Forms\Notify.Designer.cs">
       <DependentUpon>Notify.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Form1.resx">
+    <Compile Include="services\CelestialMem.cs" />
+    <Compile Include="services\KeyAuth.cs" />
+    <Compile Include="services\mem.cs" />
+    <EmbeddedResource Include="Forms\Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form3.resx">
+    <EmbeddedResource Include="Forms\Form3.resx">
       <DependentUpon>Form3.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Hack.resx">
+    <EmbeddedResource Include="Forms\Hack.resx">
       <DependentUpon>Hack.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Log.resx">
+    <EmbeddedResource Include="Forms\Log.resx">
       <DependentUpon>Log.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Main.resx">
+    <EmbeddedResource Include="Forms\Main.resx">
       <DependentUpon>Main.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Notify.resx">
+    <EmbeddedResource Include="Forms\Notify.resx">
       <DependentUpon>Notify.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
@@ -169,8 +169,13 @@
     <EmbeddedResource Include="Properties\transparent.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="black_magic_icon.ico" />
     <None Include="Resources\OxcyShop - SKIN 2D.dll" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="models\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Resources\black_magic_icon.ico" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Import Project="..\packages\Fody.6.9.1\build\Fody.targets" Condition="Exists('..\packages\Fody.6.9.1\build\Fody.targets')" />

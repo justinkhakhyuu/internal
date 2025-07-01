@@ -63,3 +63,21 @@ C:\Celestial Mods V3\QUICK MEM\Celestial Mods V3\Celestial Mods V3\obj\Debug\Sys
 C:\Celestial Mods V3\QUICK MEM\Celestial Mods V3\Celestial Mods V3\obj\Debug\System32.exe.config
 C:\Celestial Mods V3\QUICK MEM\Celestial Mods V3\Celestial Mods V3\obj\Debug\Celestial Mods V3.csproj.Fody.CopyLocal.cache
 C:\Celestial Mods V3\QUICK MEM\Celestial Mods V3\Celestial Mods V3\obj\Debug\Celestial Mods V3.csproj.Fody.RuntimeCopyLocal.cache
+C:\Users\retro\internal\Celestial Mods V3\Celestial Mods V3\bin\Debug\System32.exe.config
+C:\Users\retro\internal\Celestial Mods V3\Celestial Mods V3\bin\Debug\System32.exe
+C:\Users\retro\internal\Celestial Mods V3\Celestial Mods V3\bin\Debug\System32.pdb
+C:\Users\retro\internal\Celestial Mods V3\Celestial Mods V3\obj\Debug\Celestial Mods V3.csproj.AssemblyReference.cache
+C:\Users\retro\internal\Celestial Mods V3\Celestial Mods V3\obj\Debug\System32.exe.config
+C:\Users\retro\internal\Celestial Mods V3\Celestial Mods V3\obj\Debug\Celestial_Mods_V3.Login1.resources
+C:\Users\retro\internal\Celestial Mods V3\Celestial Mods V3\obj\Debug\Celestial_Mods_V3.Form3.resources
+C:\Users\retro\internal\Celestial Mods V3\Celestial Mods V3\obj\Debug\Celestial_Mods_V3.Hack.resources
+C:\Users\retro\internal\Celestial Mods V3\Celestial Mods V3\obj\Debug\Celestial_Mods_V3.Log.resources
+C:\Users\retro\internal\Celestial Mods V3\Celestial Mods V3\obj\Debug\Celestial_Mods_V3.Main.resources
+C:\Users\retro\internal\Celestial Mods V3\Celestial Mods V3\obj\Debug\Celestial_Mods_V3.Notify.resources
+C:\Users\retro\internal\Celestial Mods V3\Celestial Mods V3\obj\Debug\Celestial_Mods_V3.Properties.Resources.resources
+C:\Users\retro\internal\Celestial Mods V3\Celestial Mods V3\obj\Debug\Celestial Mods V3.csproj.GenerateResource.cache
+C:\Users\retro\internal\Celestial Mods V3\Celestial Mods V3\obj\Debug\Celestial Mods V3.csproj.CoreCompileInputs.cache
+C:\Users\retro\internal\Celestial Mods V3\Celestial Mods V3\obj\Debug\Celestial Mods V3.csproj.Fody.CopyLocal.cache
+C:\Users\retro\internal\Celestial Mods V3\Celestial Mods V3\obj\Debug\Celestial Mods V3.csproj.Fody.RuntimeCopyLocal.cache
+C:\Users\retro\internal\Celestial Mods V3\Celestial Mods V3\obj\Debug\System32.exe
+C:\Users\retro\internal\Celestial Mods V3\Celestial Mods V3\obj\Debug\System32.pdb
