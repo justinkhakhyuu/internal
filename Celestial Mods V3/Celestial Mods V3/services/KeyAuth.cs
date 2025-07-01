@@ -996,12 +996,7 @@ namespace Reborn
             public string lastlogin { get; set; }
             public List<Data> subscriptions { get; set; } // array of subscriptions (basically multiple user ranks for user with individual expiry dates
         }
-        public class Data
-        {
-            public string subscription { get; set; }
-            public string expiry { get; set; }
-            public string timeleft { get; set; }
-        }
+
 
         private void load_user_data(user_data_structure data)
         {

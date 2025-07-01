@@ -113,9 +113,9 @@
     <Compile Include="Forms\Notify.Designer.cs">
       <DependentUpon>Notify.cs</DependentUpon>
     </Compile>
-    <Compile Include="models\IntAuth.cs" />
-    <Compile Include="models\Messages.cs" />
-    <Compile Include="models\Users.cs" />
+    <Compile Include="models\auth\IntAuth.cs" />
+    <Compile Include="models\auth\Messages.cs" />
+    <Compile Include="models\auth\Users.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="services\CelestialMem.cs" />
