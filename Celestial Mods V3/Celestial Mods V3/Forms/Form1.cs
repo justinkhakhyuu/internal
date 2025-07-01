@@ -16,7 +16,7 @@ namespace Celestial_Mods_V3
 {
     public partial class Login1: Form
     {
-        public static api KeyAuthApp = new api(
+        public static KeyAuth KeyAuthApp = new KeyAuth(
    name: "BLACK444", // Application Name
    ownerid: "a7DtayK5gr", // Owner ID
    secret: "11150eab9690d7009204d4eb2f8d60718f088ea110e31898cd548bf835152c54", // Application Secret

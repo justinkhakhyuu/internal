@@ -16,10 +16,11 @@ using System.Threading;
 using System.Runtime.CompilerServices;
 using System.Windows.Forms;
 using System.Text.RegularExpressions;
+using Celestial_Mods_V3.models;
 
 namespace Reborn
 {
-    public class api
+    public class KeyAuth : IAuth
     {
         public string name, ownerid, secret, version;
         public static long responseTime;
@@ -34,7 +35,7 @@ namespace Reborn
         /// <param name="ownerid">Your OwnerID, found in your account settings.</param>
         /// <param name="secret">Application Secret</param>
         /// <param name="version">Application Version, if version doesnt match it will open the download link you set up in your application settings and close the app, if empty the app will close</param>
-        public api(string name, string ownerid, string secret, string version)
+        public KeyAuth(string name, string ownerid, string secret, string version)
         {
             if (ownerid.Length != 10 || secret.Length != 64)
             {
@@ -84,23 +85,16 @@ namespace Reborn
             public app_data_structure appinfo { get; set; }
 
             [DataMember]
-            public List<msg> messages { get; set; }
+            public List<MessagesModel> messages { get; set; }
 
             [DataMember]
-            public List<users> users { get; set; }
+            public List<UsersModel> users { get; set; }
         }
 
-        public class msg
-        {
-            public string message { get; set; }
-            public string author { get; set; }
-            public string timestamp { get; set; }
-        }
 
-        public class users
-        {
-            public string credential { get; set; }
-        }
+
+
+
 
         [DataContract]
         private class user_data_structure
@@ -620,7 +614,7 @@ namespace Reborn
         /// Fetch usernames of online users
         /// </summary>
         /// <returns>ArrayList of usernames</returns>
-        public List<users> fetchOnline()
+        public List<UsersModel> fetchOnline()
         {
             CheckInit();
 
@@ -669,7 +663,7 @@ namespace Reborn
         /// </summary>
         /// <param name="channelname">The channel name</param>
         /// <returns>the last 50 sent messages of that channel</returns>
-        public List<msg> chatget(string channelname)
+        public List<MessagesModel> chatget(string channelname)
         {
             CheckInit();
 
@@ -1069,7 +1063,7 @@ namespace Reborn
             }
             catch
             {
-                api.error("The session has ended, open program again.");
+                KeyAuth.error("The session has ended, open program again.");
                 Environment.Exit(0);
                 return null;
             }
